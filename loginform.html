@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Форма авторизации</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "ourstyles.css">
+  </head>
+  <body>
+    <form action = "file1.php" method = "post">
+      <table id = "indtable">
+      <tr>
+        <td style = "height: 60px"> <strong id = "indcolor"> Форма авторизации </strong> </td>
+      </tr>
+      <tr>
+        <td style = "text-align: left; height: 35px" id = "helptext"> Введите ваш логин или адрес электронной почты: </td>
+      </tr>
+      <tr>
+       <td> <input style = "width: 97%" type = "text" name = "name1" placeholder = "Логин или e-mail" required> </td>
+      </tr>
+      <tr>
+        <td style = "text-align: left; height: 35px" id = "helptext"> Введите ваш пароль: </td>
+      </tr>
+      <tr>
+       <td> <input style = "width: 97%" type = "password" name = "password1" placeholder = "Пароль" required> </td>
+      </tr>
+      <tr>
+       <td style = "height: 60px; transform: translateY(10px)"> <input type = "submit" autofocus = "true" value = "Войти в магазин" id = "indcolor"> </td>
+      </tr>
+      <tr>
+        <td> <p id = "helptext">В первое поле вводится логин или адрес электронной почты. <br>Во второе поле вводится пароль. <br> Строчные и прописные буквы различаются. <br>Оба поля обязательны для заполнения.</p> </td>
+      </tr>
+      </table>
+    </form>
+  </body>
+</html>

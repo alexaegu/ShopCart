@@ -1,0 +1,18 @@
+#helptext
+{
+  font-size: 85%;
+  color: #444444;
+  text-align: left;
+}
+
+#indcolor, #idsubmit
+{
+  color: #af05e4;
+}
+
+ #indtable
+{
+  border: 0px;
+  width: 40%;
+  text-align: center;
+}
